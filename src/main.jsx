@@ -11,7 +11,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Provider store={store}>
       <PersistGate loading={null} persistor={persistor}>
-        <BrowserRouter basename="project-daily-energy-dose">
+        <BrowserRouter basename="fs-86-react-node-Sokilskill">
           <App />
         </BrowserRouter>
       </PersistGate>
